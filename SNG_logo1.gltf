@@ -1,0 +1,180 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 30303,
+            "type": "VEC3",
+            "max": [
+                747.8696899414063,
+                808.0,
+                100.0
+            ],
+            "min": [
+                52.13032531738281,
+                78.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 30303,
+            "type": "VEC3",
+            "max": [
+                0.9997990727424622,
+                0.9998000860214233,
+                1.0
+            ],
+            "min": [
+                -0.9997990727424622,
+                -0.9998000860214233,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 30303,
+            "type": "VEC2",
+            "max": [
+                0.9348371028900146,
+                0.9373549818992615
+            ],
+            "min": [
+                0.06516290456056595,
+                0.09048724174499512
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 74580,
+            "type": "SCALAR",
+            "max": [
+                30302
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1268016,
+            "uri": "SNG_logo1_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 363636,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 363636,
+            "byteLength": 363636,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 727272,
+            "byteLength": 242424,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 969696,
+            "byteLength": 298320,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Default Material",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.4019777774810791,
+                    0.4019777774810791,
+                    0.4019777774810791,
+                    1.0
+                ],
+                "metallicFactor": 0.30000001192092896,
+                "roughnessFactor": 0.44999998807907104
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "SNG_logo1",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "nodes[0]",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "wrapS": 33071,
+            "wrapT": 33071,
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
